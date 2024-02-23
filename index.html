@@ -59,7 +59,7 @@
     </nav>
     <div id="home" class="snapscrolling" style="/*scroll-snap-align: center;*//*scroll-snap-stop: normal;*/min-height: 100svh;padding: 85px 0px;display: flex;flex-flow: column;visibility: visible;padding-bottom: 0px;background: #150c1d;height: 100%;">
         <div class="d-flex d-xl-flex justify-content-center justify-content-xl-center" data-bss-disabled-mobile="true" data-aos="fade-up" data-aos-duration="500" data-aos-once="true" style="z-index: 2;">
-            <h1 style="text-align: center;font-size: 15px;margin-bottom: 25px;padding: 5px;width: auto;border-radius: 5px;padding-right: 10px;padding-left: 10px;background: rgba(146,84,222,0.5);box-shadow: 0px 0px 10px 0px #722ed1;backdrop-filter: blur(10px);border: 1px solid #722ed1;"><i class="fas fa-award" style="margin-right: 5px;"></i>#1 Best Aim Aligner in the Market</h1>
+            <h1 id="BadgeHeader" style="text-align: center;font-size: 15px;margin-bottom: 25px;padding: 5px;width: auto;border-radius: 5px;padding-right: 10px;padding-left: 10px;background: rgba(146,84,222,0.5);box-shadow: 0px 0px 10px 0px #722ed1;backdrop-filter: blur(10px);border: 1px solid #722ed1;"><i class="fas fa-award" style="margin-right: 5px;"></i>Downloaded over [Insert Downloads Here]</h1>
         </div>
         <div class="d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center" data-bss-disabled-mobile="true" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250" style="z-index: 2;padding-right: 20px;padding-left: 20px;">
             <h1 style="text-align: center;font-size: 20px;z-index: 2;font-family: AKONY;width: 138px;margin-right: 10px;margin-bottom: 0px;">Aimmy</h1>
@@ -414,40 +414,48 @@
                     </div>
                 </div>
                 <div class="accordion-item" style="border-width: 2px;border-color: var(--bs-accordion-active-bg);">
-                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQMenu .item-2" aria-expanded="false" aria-controls="FAQMenu .item-2">Why is Aimmy kind of slow? Why does my PC get so slow/hot when I use Aimmy?</button></h2>
+                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQMenu .item-2" aria-expanded="false" aria-controls="FAQMenu .item-2">How is Aimmy free without ads?</button></h2>
                     <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#FAQMenu">
+                        <div class="accordion-body">
+                            <p class="mb-0">Aimmy is a passion project founded by a developer and a designer loved in their respective communities willing to venture into AI. As the project is a passion of ours and not a business, it is not in our best interests to make as much money as possible from this project.&nbsp;<br><br>Instead, what we serve to gain by developing Aimmy is lots of kind words &lt;3 and a chance to help people aim better. <br><br>Aimmy is not a free project to run, any of our expenses come right out of our own pockets. However, since Aimmy utilizes free services like GitHub for hosting, and is developed / run by, our operating costs are very low, meaning we currently do not have to resort to an ad-supported model to stay afloat.<br><br>While donations are not required for us to survive, we do accept donations, and it does mean a lot to us if you do! If you would like to donate to Aimmy, please do so below.</p><button class="btn btn-primary" type="button" style="padding: 5px 10px;margin: 5px;border-radius: 5px;background: rgba(60,60,60,0.25);border-width: 1px;border-color: rgba(255,255,255,0.25);box-shadow: 0px 0px 5px rgba(255,255,255,0.5);" onclick="GoTo(&quot;https://github.com/sponsors/Babyhamsta&quot;)"><i class="fas fa-cloud-download-alt" style="margin-right: 5px;"></i>Donate to us!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item" style="border-width: 2px;border-color: var(--bs-accordion-active-bg);">
+                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQMenu .item-3" aria-expanded="false" aria-controls="FAQMenu .item-3">Why is Aimmy kind of slow? Why does my PC get so slow/hot when I use Aimmy?</button></h2>
+                    <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#FAQMenu">
                         <div class="accordion-body">
                             <p class="mb-0">Aimmy is a product that utilizes AI to detect enemies. As such, it will use a significant portion of your computer's gaming power in order to perform this task. AI is not an easy task for a computer to perform after all.<br><br>Aimmy works best on Desktop PCs with a dedicated Mid-Range Graphics Card from 2016 or later. Such PCs can currently be found between $500-$1000 usd, if you can save up for one, we highly recommend it.<br><br>To give you a baseline for a Budget PC that works on Aimmy, we've devised a PC Part Picker list that you can take some inspiration from. Please note that we cannot confirm the safety of the AliExpress sellers where some of these items come from.</p><button class="btn btn-primary" type="button" style="padding: 5px 10px;margin: 5px;border-radius: 5px;background: rgba(60,60,60,0.25);border-width: 1px;border-color: rgba(255,255,255,0.25);box-shadow: 0px 0px 5px rgba(255,255,255,0.5);" onclick="GoTo(&quot;https://pcpartpicker.com/list/RTQsxH&quot;)"><i class="fas fa-eye" style="margin-right: 5px;"></i>View PC</button>
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item" style="border-width: 2px;border-color: var(--bs-accordion-active-bg);">
-                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQMenu .item-3" aria-expanded="false" aria-controls="FAQMenu .item-3">Why is my screen constantly shaking while Aimmy is trying to Aim?</button></h2>
-                    <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#FAQMenu">
+                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQMenu .item-4" aria-expanded="false" aria-controls="FAQMenu .item-4">Why is my screen constantly shaking while Aimmy is trying to Aim?</button></h2>
+                    <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#FAQMenu">
                         <div class="accordion-body">
                             <p class="mb-0">Adjust your mouse sensitivity on Aimmy or on your game. A "higher" mouse sensitivity on Aimmy means a lower mouse sensitivity over all and vice versa.</p>
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item" style="border-width: 2px;border-color: var(--bs-accordion-active-bg);">
-                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQMenu .item-4" aria-expanded="false" aria-controls="FAQMenu .item-4">When I open Aimmy, it says&nbsp;"You must install .NET Desktop Runtime to run this application", I click yes and it doesn't download, what do I do?</button></h2>
-                    <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#FAQMenu">
+                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQMenu .item-5" aria-expanded="false" aria-controls="FAQMenu .item-5">When I open Aimmy, it says&nbsp;"You must install .NET Desktop Runtime to run this application", I click yes and it doesn't download, what do I do?</button></h2>
+                    <div class="accordion-collapse collapse item-5" role="tabpanel" data-bs-parent="#FAQMenu">
                         <div class="accordion-body">
                             <p class="mb-0">Download the "x64" version of ".NET Desktop Runtime" from the link below and run it.</p><button class="btn btn-primary" type="button" style="padding: 5px 10px;margin: 5px;border-radius: 5px;background: rgba(60,60,60,0.25);border-width: 1px;border-color: rgba(255,255,255,0.25);box-shadow: 0px 0px 5px rgba(255,255,255,0.5);" onclick="GoTo(NETDownload)"><i class="fas fa-cloud-download-alt" style="margin-right: 5px;"></i>Download</button>
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item" style="border-width: 2px;border-color: var(--bs-accordion-active-bg);">
-                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQMenu .item-5" aria-expanded="false" aria-controls="FAQMenu .item-5">I am getting an error starting with "There was an error starting the OnnxModel", what do I do?</button></h2>
-                    <div class="accordion-collapse collapse item-5" role="tabpanel" data-bs-parent="#FAQMenu">
+                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQMenu .item-6" aria-expanded="false" aria-controls="FAQMenu .item-6">I am getting an error starting with "There was an error starting the OnnxModel", what do I do?</button></h2>
+                    <div class="accordion-collapse collapse item-6" role="tabpanel" data-bs-parent="#FAQMenu">
                         <div class="accordion-body">
                             <p class="mb-0">Download the file from the link below and run it.</p><button class="btn btn-primary" type="button" style="padding: 5px 10px;margin: 5px;border-radius: 5px;background: rgba(60,60,60,0.25);border-width: 1px;border-color: rgba(255,255,255,0.25);box-shadow: 0px 0px 5px rgba(255,255,255,0.5);" onclick="GoTo(&quot;https://aka.ms/vs/17/release/vc_redist.x64.exe&quot;)"><i class="fas fa-cloud-download-alt" style="margin-right: 5px;"></i>Download</button>
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item" style="border-width: 2px;border-color: var(--bs-accordion-active-bg);">
-                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQMenu .item-6" aria-expanded="false" aria-controls="FAQMenu .item-6">Aimmy will crash if I try to run a model, what do I do?</button></h2>
-                    <div class="accordion-collapse collapse item-6" role="tabpanel" data-bs-parent="#FAQMenu">
+                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#FAQMenu .item-7" aria-expanded="false" aria-controls="FAQMenu .item-7">Aimmy will crash if I try to run a model, what do I do?</button></h2>
+                    <div class="accordion-collapse collapse item-7" role="tabpanel" data-bs-parent="#FAQMenu">
                         <div class="accordion-body">
                             <p class="mb-0">We provide you with a tutorial on how to fix this issue. Please click the button below to watch it.</p><button class="btn btn-primary" type="button" style="padding: 5px 10px;margin: 5px;border-radius: 5px;background: rgba(60,60,60,0.25);border-width: 1px;border-color: rgba(255,255,255,0.25);box-shadow: 0px 0px 5px rgba(255,255,255,0.5);" onclick="GoTo(&quot;https://youtu.be/-jUr5l8luiw&quot;)"><i class="fab fa-youtube" style="margin-right: 5px;"></i>Watch Tutorial</button>
                         </div>
